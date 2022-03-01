@@ -7,23 +7,23 @@ function Navbar(){
   return (
       <Menu>        
         <li>
-          <NavLink to='/'>
-            <p>Home</p>
+          <NavLink to='/' className='bm-item'>
+            Home
           </NavLink>
         </li>
         <li>
-          <NavLink to='/AboutMe'>
-            <p>About Me</p>
+          <NavLink to='/AboutMe' className='bm-item'>
+            About Me
           </NavLink>
         </li>
         <li>
-          <NavLink to='/Resume'>
-            <p>Resume</p>
+          <NavLink to='/Resume' className='bm-item'>
+            Resume
           </NavLink>
         </li>
         <li>
-          <NavLink to='/Contact'>
-            <p>Contact</p>
+          <NavLink to='/Contact' className='bm-item'>
+            Contact
           </NavLink>
         </li>
       </Menu>

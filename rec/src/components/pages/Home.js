@@ -3,10 +3,17 @@ import './PageStyling.css';
 
 function Home() {
   return (
-    <div>
+    <>
+    <div className="homeHeader">
       <h1>Wesley Wong</h1>
-      <p>body text</p>
     </div>
+    <div>
+      <p className="homeText">
+        Welcome! This is my personal website where you can find information about me!<br></br>
+        I am an aspiring software engineer, division 1 fencer, and 
+      </p>
+    </div>
+    </>
   )
 }
 

@@ -7,7 +7,6 @@ import Resume from './components/pages/Resume';
 import Contact from './components/pages/Contact';
 import Navbar from './components/Navbar';
 
-
 function App() {
     return (
       <Router>

@@ -1,10 +1,14 @@
-h1 {
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    padding: 60px 0;
-    text-align: center;
+*{
+    background: rgb(240, 233, 194);
 }
 
-p{
+.homeHeader{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 70px;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+}
+.homeText{
+    text-align: center;
+    padding-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
